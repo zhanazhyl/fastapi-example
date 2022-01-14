@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson_2"
+version = "0.1.0"
+description = ""
+authors = ["zhanazhyl <97686763+zhanazhyl@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.71.0"
+uvicorn = "^0.17.0"
+pony = "^0.7.14"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
